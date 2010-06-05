@@ -1,4 +1,4 @@
-package Pod::Weaver::Section::FixedEncoding;
+package Pod::Weaver::Plugin::Encoding;
 # ABSTRACT: Add an encoding command to your POD
 
 use Moose;
@@ -46,7 +46,7 @@ has encoding => (
 =method finalize_document
 
 This method prepends an C<=encoding> command with the content of the
-C<encoding> attribute's value to the documents children.
+C<encoding> attribute's value to the document's children.
 
 Does nothing if the document already has an C<=encoding> command.
 
@@ -81,5 +81,7 @@ expects the encoding to be specified in a special comment within the
 document that's being woven.
 
 =cut
+
+__PACKAGE__->meta->make_immutable;
 
 1;

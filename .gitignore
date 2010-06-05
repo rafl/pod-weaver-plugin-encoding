@@ -1,0 +1,4 @@
+.*
+!.gitignore
+Pod-Weaver-Plugin-Encoding-*
+Debian_CPANTS.txt

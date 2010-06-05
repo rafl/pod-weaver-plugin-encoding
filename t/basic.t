@@ -38,6 +38,7 @@ bar
 EOP
 }
 
+# don't add anything if =encoding is already there
 {
     my $doc = Pod::Elemental->read_string(<<'EOP');
 =head1 foo

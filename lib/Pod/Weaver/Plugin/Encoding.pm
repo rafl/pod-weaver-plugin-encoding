@@ -15,11 +15,11 @@ with 'Pod::Weaver::Role::Finalizer';
 
 In your weaver.ini:
 
-  [FixedEncoding]
+  [-Encoding]
 
 or
 
-  [FixedEncoding]
+  [-Encoding]
   encoding = kio8-r
 
 =head1 DESCRIPTION

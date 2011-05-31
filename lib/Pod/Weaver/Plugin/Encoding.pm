@@ -76,7 +76,7 @@ sub find_encoding_command {
 
 =head1 SEE ALSO
 
-L<Pod::Weaver::Plugin::Encoding> is very similar to this module, but
+L<Pod::Weaver::Section::Encoding> is very similar to this module, but
 expects the encoding to be specified in a special comment within the
 document that's being woven.
 

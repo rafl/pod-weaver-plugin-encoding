@@ -22,6 +22,11 @@ or
   [-Encoding]
   encoding = kio8-r
 
+Or in your dist.ini:
+
+  [PodWeaver]
+  config_plugin=-Encoding
+  
 =head1 DESCRIPTION
 
 This section will add an C<=encoding> command like

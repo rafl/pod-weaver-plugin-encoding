@@ -20,20 +20,20 @@ In your weaver.ini:
 or
 
   [-Encoding]
-  encoding = kio8-r
+  encoding = koi8-r
 
 =head1 DESCRIPTION
 
 This section will add an C<=encoding> command like
 
-  =encoding utf-8
+  =encoding UTF-8
 
 to your POD.
 
 =attr encoding
 
 The encoding to declare in the C<=encoding> command. Defaults to
-C<utf-8>.
+C<UTF-8>.
 
 =cut
 

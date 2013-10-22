@@ -45,7 +45,7 @@ EOP
 
 bar
 
-=encoding utf-8
+=encoding UTF-8
 
 =head1 bar
 
@@ -63,7 +63,7 @@ EOP
 
 bar
 
-=encoding utf-8
+=encoding UTF-8
 
 =head1 bar
 

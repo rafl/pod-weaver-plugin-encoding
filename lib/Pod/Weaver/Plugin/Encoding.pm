@@ -40,7 +40,7 @@ C<utf-8>.
 has encoding => (
     is      => 'ro',
     isa     => Str,
-    default => 'utf-8',
+    default => 'UTF-8',
 );
 
 =method finalize_document
